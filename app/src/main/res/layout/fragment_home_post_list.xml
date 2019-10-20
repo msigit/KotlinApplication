@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/nested_scroll_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <com.mcc.kotlinapplication.progress.SquareDotsLoadingView
+                android:id="@+id/loader_progress"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:circleRadius="@dimen/margin_4dp"
+                app:radius="@dimen/pad_margin_40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/height_width_30dp"
+                app:numDots="10"
+                android:visibility="gone"
+                app:circleColor="@color/colorPrimary"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/post_recycler"
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            <com.mcc.kotlinapplication.progress.WindowsLoadingView
+                    android:id="@+id/load_more_progress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:circleRadius="@dimen/pad_margin_3dp"
+                    app:animationDuration="1500"
+                    app:radius="@dimen/margin_20dp"
+                    app:numDots="6"
+                    android:layout_below="@+id/post_recycler"
+                    android:layout_centerHorizontal="true"
+                    android:visibility="gone"
+                    app:circleColor="@color/colorPrimary"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:id="@+id/empty_list_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:visibility="gone"/>
+
+    </RelativeLayout>
+
+</androidx.core.widget.NestedScrollView>

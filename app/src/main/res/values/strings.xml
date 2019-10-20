@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kotlin Application</string>
+
+    <string name="navigation_open">Open</string>
+    <string name="navigation_close">Close</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_bottom_navigation">Bottom Navigation</string>
+    <string name="menu_favourite">My Favourite</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_notification">Notification</string>
+
+    <string name="text_placeholder">Text</string>
+
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+</resources>
