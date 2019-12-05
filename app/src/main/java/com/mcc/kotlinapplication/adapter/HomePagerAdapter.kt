@@ -1,4 +1,4 @@
-package com.mcc.kotlinapplication.adapater
+package com.mcc.kotlinapplication.adapter
 
 import android.os.Bundle
 import android.text.Html

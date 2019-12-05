@@ -18,8 +18,8 @@ import androidx.viewpager.widget.ViewPager.OnPageChangeListener
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.tabs.TabLayout
 import com.mcc.kotlinapplication.R
-import com.mcc.kotlinapplication.adapater.HomePagerAdapter
-import com.mcc.kotlinapplication.adapater.SliderPagerAdpater
+import com.mcc.kotlinapplication.adapter.HomePagerAdapter
+import com.mcc.kotlinapplication.adapter.SliderPagerAdpater
 import com.mcc.kotlinapplication.databinding.ActivityHomeBinding
 import com.mcc.kotlinapplication.model.CategoryModel
 import com.mcc.kotlinapplication.model.postmodel.PostModel

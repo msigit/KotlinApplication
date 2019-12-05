@@ -3,13 +3,12 @@ package com.mcc.kotlinapplication.activity
 import android.app.Activity
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.MenuItem
 import android.view.View
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.GridLayoutManager
 import com.mcc.kotlinapplication.R
-import com.mcc.kotlinapplication.adapater.FavouritePostsAdpater
+import com.mcc.kotlinapplication.adapter.FavouritePostsAdpater
 import com.mcc.kotlinapplication.database.helper.DaoHelper
 import com.mcc.kotlinapplication.database.helper.DbLoaderInterface
 import com.mcc.kotlinapplication.database.loader.FavouritePostLoader

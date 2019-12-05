@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.mcc.kotlinapplication.R
-import com.mcc.kotlinapplication.adapater.HomePostListAdapter
+import com.mcc.kotlinapplication.adapter.HomePostListAdapter
 import com.mcc.kotlinapplication.constant.AppConstants
 import com.mcc.kotlinapplication.database.helper.DaoHelper
 import com.mcc.kotlinapplication.database.helper.DbLoaderInterface

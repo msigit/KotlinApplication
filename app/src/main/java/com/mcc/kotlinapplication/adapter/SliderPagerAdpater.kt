@@ -1,6 +1,5 @@
-package com.mcc.kotlinapplication.adapater
+package com.mcc.kotlinapplication.adapter
 
-import android.content.Context
 import android.text.Html
 import android.view.LayoutInflater
 import android.view.View
